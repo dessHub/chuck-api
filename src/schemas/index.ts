@@ -1,7 +1,6 @@
 
 import {gql} from 'apollo-server';
 
-// Response schema
 export const schema = gql`
   type Categories {
     categories: [String]
