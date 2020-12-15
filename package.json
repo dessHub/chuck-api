@@ -5,9 +5,9 @@
   "main": "src/server.js",
   "scripts": {
     "build": "./node_modules/typescript/bin/tsc",
-    "ts:watch": "./node_modules/typescript/bin/tsc -w",
+    "build:watch": "./node_modules/typescript/bin/tsc -w",
     "start": "node dist/server.js",
-    "start:dev": "npm run ts && nodemon dist/server.js",
+    "start:dev": "npm run build && nodemon dist/server.js",
     "lint": "./node_modules/.bin/tslint --project '.'"
   },
   "keywords": [],
