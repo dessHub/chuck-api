@@ -4,10 +4,10 @@
   "description": "Node js, typscript and graphql api that consumes chuck norris api",
   "main": "src/server.js",
   "scripts": {
-    "ts": "./node_modules/typescript/bin/tsc",
-    "ts:watch": "./node_modules/typescript/bin/tsc -w",
+    "build": "./node_modules/typescript/bin/tsc",
+    "build:watch": "./node_modules/typescript/bin/tsc -w",
     "start": "node dist/server.js",
-    "start:dev": "npm ts && nodemon dist/server.js",
+    "start:dev": "npm run build && nodemon dist/server.js",
     "lint": "./node_modules/.bin/tslint --project '.'"
   },
   "keywords": [],
