@@ -1,5 +1,7 @@
 # chuck-api
- Node js, typscript and graphql api that consumes chuck norris api 
+ Node js, typscript and graphql api that consumes chuck norris api. 
+ Hosted api version heroku is available [here](https://chuck-backend-sov.herokuapp.com/graphql).
+ And frontend [here](https://chuck-quotes.herokuapp.com/)
  
 ## How to set up
 
